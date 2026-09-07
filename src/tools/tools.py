@@ -55,7 +55,7 @@ def scrape_url(url: str) -> str:
     }
 
     try:
-        # ── Fetch page ─────────────────────────────────────
+        # ── Fetch page ──────────────~~───────────────────────
         response = requests.get(
             url,
             headers=headers,
