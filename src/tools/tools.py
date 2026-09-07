@@ -21,9 +21,9 @@ TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
 # search tool
 @tool
 def web_search(query: str) -> str:
-    '''
+    """
     Search web for recent and reliable information on a topic
-    '''
+    """
     tavily_search = TavilySearchResults(max_results=5)
 
     out = []
