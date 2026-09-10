@@ -1,3 +1,3 @@
-from src.tools.tools import web_search, scrape_url
+from src.pipelines.pipeline import run_research_pipeline
 
-print(web_search.invoke("what are the latest news on AI?"))
+run_research_pipeline("what are the latest news on AI?")
